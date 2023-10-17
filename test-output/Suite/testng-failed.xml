@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listener.MyTestNGListener"/>
+    <listener class-name="analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="AirFx_PanelSiren(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="PanelSiren" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelSiren(failed) -->
+  <test thread-count="5" name="AirFx_KeyfobArming(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="KeyfobArming" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_KeyfobArming(failed) -->
+  <test thread-count="5" name="AirFx_SupervisoryNonEmerg(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SupervisoryNonEmerg" invocation-numbers="0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SupervisoryNonEmerg(failed) -->
+  <test thread-count="5" name="AirFx_SecureArming(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SecureArming" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SecureArming(failed) -->
+  <test thread-count="5" name="AirFx_LowBatteryArming(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="LowBatteryArming" invocation-numbers="0 0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_LowBatteryArming(failed) -->
+  <test thread-count="5" name="AirFx_SensorVoicePrompts(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="SensorVoicePrompts" invocation-numbers="0 0 0 0"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SensorVoicePrompts(failed) -->
+  <test thread-count="5" name="AirFx_AllChimes(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="AllChimes" invocation-numbers="0 0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_AllChimes(failed) -->
+  <test thread-count="5" name="AirFx_SafetySensorChimes(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SafetySensorChimes" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SafetySensorChimes(failed) -->
+  <test thread-count="5" name="AirFx_Duration(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Duration" invocation-numbers="0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Duration(failed) -->
+  <test thread-count="5" name="AirFx_TransitionEffect(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="TransitionEffect" invocation-numbers="0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_TransitionEffect(failed) -->
+  <test thread-count="5" name="AirFx_DisplayType(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="DisplayType" invocation-numbers="0"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_DisplayType(failed) -->
+  <test thread-count="5" name="AirFx_Nightmodestart(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="Nightmodestart" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Nightmodestart(failed) -->
+  <test thread-count="5" name="AirFx_Nightmodeend(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="Nightmodeend" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Nightmodeend(failed) -->
+  <test thread-count="5" name="AirFx_Zwave(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Zwave" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Zwave(failed) -->
+  <test thread-count="5" name="AirFx_SensorLowBatteryTroubleBeep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="SensorLowBatteryTroubleBeep" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SensorLowBatteryTroubleBeep(failed) -->
+  <test thread-count="5" name="AirFx_SensorTamperTroubleBeep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SensorTamperTroubleBeep" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SensorTamperTroubleBeep(failed) -->
+  <test thread-count="5" name="AirFx_TroubleBeepsTimeout(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="TroubleBeepsTimeout" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_TroubleBeepsTimeout(failed) -->
+  <test thread-count="5" name="AirFx_AutoExitTimeExtension(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AutoExitTimeExtension" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_AutoExitTimeExtension(failed) -->
+  <test thread-count="5" name="AirFx_DisarmPhotos(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="DisarmPhotos" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_DisarmPhotos(failed) -->
+  <test thread-count="5" name="AirFx_SevereWeatherSirenWarning(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="SevereWeatherSirenWarning" invocation-numbers="0 0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SevereWeatherSirenWarning(failed) -->
+  <test thread-count="5" name="AirFx_MastercodeSirenAndAlarm(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="MastercodeSirenAndAlarm" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_MastercodeSirenAndAlarm(failed) -->
+  <test thread-count="5" name="AirFx_MastercodeSecurityandArming(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="MastercodeSecurityandArming" invocation-numbers="0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_MastercodeSecurityandArming(failed) -->
+  <test thread-count="5" name="AirFx_AlarmPhotos(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AlarmPhotos" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_AlarmPhotos(failed) -->
+  <test thread-count="5" name="AirFx_AllTroubleBeeps(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AllTroubleBeeps" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_AllTroubleBeeps(failed) -->
+  <test thread-count="5" name="AirFx_PanelTamperTroubleBeep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="PanelTamperTroubleBeep" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelTamperTroubleBeep(failed) -->
+  <test thread-count="5" name="AirFx_LocalZWaveVoicePrompts(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="LocalZWaveVoicePrompts" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_LocalZWaveVoicePrompts(failed) -->
+  <test thread-count="5" name="AirFx_RemoteZWaveVoicePrompts(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="RemoteZWaveVoicePrompts" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_RemoteZWaveVoicePrompts(failed) -->
+  <test thread-count="5" name="AirFx_SirenAnnunciation(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="SirenAnnunciation" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SirenAnnunciation(failed) -->
+  <test thread-count="5" name="AirFx_WellnessSupport(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="WellnessSupport" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WellnessSupport(failed) -->
+  <test thread-count="5" name="AirFx_WaterFreezeSiren(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="WaterFreezeSiren" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WaterFreezeSiren(failed) -->
+  <test thread-count="5" name="AirFx_RFJamDetectionAlarm(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="RFJamDetectionAlarm" invocation-numbers="0"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_RFJamDetectionAlarm(failed) -->
+  <test thread-count="5" name="AirFx_OtherZWaveDeviceLimit(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="OtherZWaveDeviceLimit" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_OtherZWaveDeviceLimit(failed) -->
+  <test thread-count="5" name="AirFx_RFJamSensitivityLevel(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="RFJamSensitivityLevel" invocation-numbers="0 0 0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_RFJamSensitivityLevel(failed) -->
+  <test thread-count="5" name="AirFx_Panelcommunicationtestfrequency(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="Panelcommunicationtestfrequency" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Panelcommunicationtestfrequency(failed) -->
+  <test thread-count="5" name="AirFx_Policepanic(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="Policepanic" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Policepanic(failed) -->
+  <test thread-count="5" name="AirFx_Auxiliarypanic(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="Auxiliarypanic" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Auxiliarypanic(failed) -->
+  <test thread-count="5" name="AirFx_VoicesVolume(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="VoicesVolume" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_VoicesVolume(failed) -->
+  <test thread-count="5" name="AirFx_FontSize(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="FontSize" invocation-numbers="0"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_FontSize(failed) -->
+  <test thread-count="5" name="AirFx_FireandLifeSafetyDeviceTroubleBeeps(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="FireandLifeSafetyDeviceTroubleBeeps" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_FireandLifeSafetyDeviceTroubleBeeps(failed) -->
+  <test thread-count="5" name="AirFx_SensorTamperTroubleBeeps(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SensorTamperTroubleBeeps" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SensorTamperTroubleBeeps(failed) -->
+  <test thread-count="5" name="AirFx_PanelTamperBeeps(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="PanelTamperBeeps" invocation-numbers="0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelTamperBeeps(failed) -->
+  <test thread-count="5" name="AirFx_SensorLowBatteryBeeps(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SensorLowBatteryBeeps" invocation-numbers="0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SensorLowBatteryBeeps(failed) -->
+  <test thread-count="5" name="AirFx_PanelTamper(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="PanelTamper" invocation-numbers="0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelTamper(failed) -->
+  <test thread-count="5" name="AirFx_PanelGlassBreakSensor(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="PanelGlassBreakSensor" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelGlassBreakSensor(failed) -->
+  <test thread-count="5" name="AirFx_SafetySensorSounds(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="SafetySensorSounds" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SafetySensorSounds(failed) -->
+  <test thread-count="5" name="AirFx_SwingerShutdown(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="SwingerShutdown" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SwingerShutdown(failed) -->
+  <test thread-count="5" name="AirFx_SwingerShutdownTripCount(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SwingerShutdownTripCount" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SwingerShutdownTripCount(failed) -->
+  <test thread-count="5" name="AirFx_MasterUserAddSensors(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="MasterUserAddSensors" invocation-numbers="0"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_MasterUserAddSensors(failed) -->
+  <test thread-count="5" name="AirFx_NightTimeModeSetting(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="NightTimeModeSetting" invocation-numbers="0 0 0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_NightTimeModeSetting(failed) -->
+  <test thread-count="5" name="AirFx_PanelWiFiConnectivityWarningPrompts(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="PanelWiFiConnectivityWarningPrompts" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelWiFiConnectivityWarningPrompts(failed) -->
+  <test thread-count="5" name="AirFx_ZWavePrimaryController(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="ZWavePrimaryController" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_ZWavePrimaryController(failed) -->
+  <test thread-count="5" name="AirFx_BackgroundDownloadforUpdates(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="BackgroundDownloadforUpdates" invocation-numbers="0"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_BackgroundDownloadforUpdates(failed) -->
+  <test thread-count="5" name="AirFx_SoftwareUpdateCheckInterval(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SoftwareUpdateCheckInterval" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SoftwareUpdateCheckInterval(failed) -->
+  <test thread-count="5" name="AirFx_ManageMyHome(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="ManageMyHome" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_ManageMyHome(failed) -->
+  <test thread-count="5" name="AirFx_Partitions(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Partitions" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_Partitions(failed) -->
+  <test thread-count="5" name="AirFx_UseCommercialSensorandDeviceNames(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="UseCommercialSensorandDeviceNames" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_UseCommercialSensorandDeviceNames(failed) -->
+  <test thread-count="5" name="AirFx_WizSoftwareUpdateStep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="WizSoftwareUpdateStep" invocation-numbers="0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WizSoftwareUpdateStep(failed) -->
+  <test thread-count="5" name="AirFx_WizPanelGlassBreakStep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="WizPanelGlassBreakStep" invocation-numbers="0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WizPanelGlassBreakStep(failed) -->
+  <test thread-count="5" name="AirFx_WizBluetoothDevicesStep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="WizBluetoothDevicesStep" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WizBluetoothDevicesStep(failed) -->
+  <test thread-count="5" name="AirFx_WizDealerStep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="WizDealerStep" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WizDealerStep(failed) -->
+  <test thread-count="5" name="AirFx_AlarmVideos(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="AlarmVideos" invocation-numbers="0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_AlarmVideos(failed) -->
+  <test thread-count="5" name="AirFx_WizIQRemoteStep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="WizIQRemoteStep" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WizIQRemoteStep(failed) -->
+  <test thread-count="5" name="AirFx_ExitBeeps(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="ExitBeeps" invocation-numbers="0 0"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_ExitBeeps(failed) -->
+  <test thread-count="5" name="AirFx_ScenesSupport(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="ScenesSupport" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_ScenesSupport(failed) -->
+  <test thread-count="5" name="AirFx_WellnessPage(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="WellnessPage" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_WellnessPage(failed) -->
+  <test thread-count="5" name="AirFx_CheckInCheckOut(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="CheckInCheckOut" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_CheckInCheckOut(failed) -->
+  <test thread-count="5" name="AirFx_SecurityPage(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SecurityPage" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_SecurityPage(failed) -->
+  <test thread-count="5" name="AirFx_GlobalChimesandVoices(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="GlobalChimesandVoices" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_GlobalChimesandVoices(failed) -->
+  <test thread-count="5" name="AirFx_GlobalIntrusionSoundsandSirens(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="GlobalIntrusionSoundsandSirens" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_GlobalIntrusionSoundsandSirens(failed) -->
+  <test thread-count="5" name="AirFx_PanelCamera(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="PanelCamera" invocation-numbers="0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelCamera(failed) -->
+  <test thread-count="5" name="AirFx_LEDIndicator(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="LEDIndicator" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_LEDIndicator(failed) -->
+  <test thread-count="5" name="AirFx_PanelAmbientNoiseDetector_BETA(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="PanelAmbientNoiseDetector_BETA" invocation-numbers="0 0 0 0"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_PanelAmbientNoiseDetector_BETA(failed) -->
+  <test thread-count="5" name="AirFx_DownloadMobileAppStep(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="DownloadMobileAppStep" invocation-numbers="0 0"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_DownloadMobileAppStep(failed) -->
+  <test thread-count="5" name="AirFx_StreamSolarData(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="StreamSolarData" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_StreamSolarData(failed) -->
+  <test thread-count="5" name="AirFx_ULCCommercialPowerRestoration(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="ULCCommercialPowerRestoration" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_ULCCommercialPowerRestoration(failed) -->
+  <test thread-count="5" name="AirFx_AutoCommunicationTestStartTime(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="AutoCommunicationTestStartTime" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_AutoCommunicationTestStartTime(failed) -->
+  <test thread-count="5" name="AirFx_EngineersReset(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="EngineersReset" invocation-numbers="0 0 0 0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_EngineersReset(failed) -->
+  <test thread-count="5" name="AirFx_BurglaryAlarmConfirmation(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="BurglaryAlarmConfirmation" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_BurglaryAlarmConfirmation(failed) -->
+  <test thread-count="5" name="AirFx_BurglaryAlarmConfirmationTimer_minutes(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="BurglaryAlarmConfirmationTimer_minutes" invocation-numbers="0 0 0 0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_BurglaryAlarmConfirmationTimer_minutes(failed) -->
+  <test thread-count="5" name="AirFx_IQRemoteResetAuthentication(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+          <include name="IQRemoteResetAuthentication" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_IQRemoteResetAuthentication(failed) -->
+  <test thread-count="5" name="AirFx_AmbientNoiseDetectiondBThreshold(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="AmbientNoiseDetectiondBThreshold" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_AmbientNoiseDetectiondBThreshold(failed) -->
+  <test thread-count="5" name="AirFx_NoiseDetectorPopup(failed)">
+    <classes>
+      <class name="testcases.UploadAndDownload">
+        <methods>
+          <include name="NoiseDetectorPopup" invocation-numbers="0 0 0 0"/>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReportStart"/>
+          <include name="quitreport"/>
+        </methods>
+      </class> <!-- testcases.UploadAndDownload -->
+    </classes>
+  </test> <!-- AirFx_NoiseDetectorPopup(failed) -->
+</suite> <!-- Failed suite [Suite] -->

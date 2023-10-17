@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+		<listeners>
+			<listener class-name="listener.MyTestNGListener"/>
+			<listener class-name="analyzer.MyTransformer"/>
+				
+  		</listeners>
+		 <test name="AirFx_DialerDelay">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="DialerDelay"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		  <test name="AirFx_SirenTimeout">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SirenTimeout"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		  <test name="AirFx_PanelSiren">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelSiren"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_EntryDelay">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="EntryDelay"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_ExitDelay">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="ExitDelay"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AutoBypass">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AutoBypass"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AutoStay">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AutoStay"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_NoDelay">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="NoDelay"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_KeyfobArming">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="KeyfobArming"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Temperature">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Temperature"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Language">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Language"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SupervisoryNonEmerg">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SupervisoryNonEmerg"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SecureArming">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SecureArming"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_LowBatteryArming">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LowBatteryArming"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SIALimits">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SIALimits"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_MediaVolume">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="MediaVolume"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AllVoicePrompts">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AllVoicePrompts"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SensorVoicePrompts">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SensorVoicePrompts"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelVoicePrompts">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelVoicePrompts"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SafetySensorVoicePrompts">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SafetySensorVoicePrompts"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AllChimes">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AllChimes"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelChimes">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelChimes"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SafetySensorChimes">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SafetySensorChimes"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Brightness">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Brightness"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Duration">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Duration"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_TransitionEffect">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="TransitionEffect"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Shuffle">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Shuffle"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_DisplayType">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="DisplayType"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PhotoFrameStartTime">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PhotoFrameStartTime"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Nightmodestart">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Nightmodestart"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Nightmodeend">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Nightmodeend"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AccountNumber">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AccountNumber"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Zwave">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Zwave"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PowerManagement">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+					<include name="PowerManagement"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SIAPowerRestoration">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SIAPowerRestoration"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SensorLowBatteryTroubleBeep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SensorLowBatteryTroubleBeep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SensorTamperTroubleBeep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SensorTamperTroubleBeep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_TroubleBeepsTimeout">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="TroubleBeepsTimeout"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AutoExitTimeExtension">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AutoExitTimeExtension"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_ThermostatDevice">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="ThermostatDevice"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_LockDevices">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LockDevices"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_LogLevel">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LogLevel"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_MasterCodeZwave">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="MasterCodeZwave"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_DisarmPhotos">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="DisarmPhotos"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SevereWeatherSirenWarning">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SevereWeatherSirenWarning"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_MastercodeSirenAndAlarm">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="MastercodeSirenAndAlarm"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_MastercodeSecurityandArming">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="MastercodeSecurityandArming"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_MastercodeCameraSettings">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="MastercodeCameraSettings"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_MastercodeZwaveManagement">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="MastercodeZwaveManagement"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AlarmPhotos">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AlarmPhotos"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AllTroubleBeeps">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AllTroubleBeeps"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelTamperTroubleBeep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelTamperTroubleBeep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_LongEntryDelay">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LongEntryDelay"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_LongExitDelay">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LongExitDelay"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 
+		 <test name="AirFx_LocalZWaveVoicePrompts">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LocalZWaveVoicePrompts"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_RemoteZWaveVoicePrompts">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="RemoteZWaveVoicePrompts"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SupervisoryEmergency">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SupervisoryEmergency"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SirenAnnunciation">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SirenAnnunciation"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WellnessSupport">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WellnessSupport"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WaterFreezeSiren">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WaterFreezeSiren"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_RFJamDetectionAlarm">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="RFJamDetectionAlarm"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_OtherZWaveDeviceLimit">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="OtherZWaveDeviceLimit"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_RFJamDetection">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="RFJamDetection"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_RFJamSensitivityLevel">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="RFJamSensitivityLevel"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AllowKeyfobAlarmDisarm">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">	
+		 			<methods>
+		 				<include name="AllowKeyfobAlarmDisarm"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Panelcommunicationtestfrequency">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Panelcommunicationtestfrequency"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Policepanic">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Policepanic"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Firepanic">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Firepanic"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Auxiliarypanic">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Auxiliarypanic"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_KeyfobDisarming">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="KeyfobDisarming"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_VoicesVolume">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="VoicesVolume"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_BeepsandChimesvolume">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="BeepsandChimesvolume"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_BluetoothDisarm">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="BluetoothDisarm"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_BluetoothDisarmTimeout">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="BluetoothDisarmTimeout"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_TouchSounds">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="TouchSounds"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_FontSize">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="FontSize"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 <test name="AirFx_Bluetooth">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Bluetooth"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SettingPhotos">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SettingPhotos"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_GarageDoorDeviceLimit">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="GarageDoorDeviceLimit"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_FireandLifeSafetyDeviceTroubleBeeps">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="FireandLifeSafetyDeviceTroubleBeeps"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SensorTamperTroubleBeeps">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SensorTamperTroubleBeeps"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelTamperBeeps">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelTamperBeeps"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SensorLowBatteryBeeps">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SensorLowBatteryBeeps"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelTamper">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelTamper"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelGlassBreakSensor">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelGlassBreakSensor"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelGlassBreakSensorSensitivity">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelGlassBreakSensorSensitivity"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SafetySensorSounds">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SafetySensorSounds"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SwingerShutdown">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SwingerShutdown"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SwingerShutdownTripCount">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SwingerShutdownTripCount"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_MasterUserAddSensors">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="MasterUserAddSensors"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_NightTimeModeSetting">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="NightTimeModeSetting"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SensorAutoLearnOpenCloseReports">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SensorAutoLearnOpenCloseReports"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelWiFiConnectivityWarningPrompts">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelWiFiConnectivityWarningPrompts"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_panelCameraMotionDetector">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="panelCameraMotionDetector"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_ZWavePrimaryController">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="ZWavePrimaryController"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_BackgroundDownloadforUpdates">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="BackgroundDownloadforUpdates"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SoftwareUpdateCheckInterval">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SoftwareUpdateCheckInterval"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_ManageMyHome">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="ManageMyHome"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Partitions">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Partitions"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Digit6UserCodes">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Digit6UserCodes"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_UseCommercialSensorandDeviceNames">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="UseCommercialSensorandDeviceNames"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizSoftwareUpdateStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizSoftwareUpdateStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizSecuritySensorsStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizSecuritySensorsStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizPanelGlassBreakStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizPanelGlassBreakStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizZWaveDevicesStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizZWaveDevicesStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizBluetoothDevicesStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizBluetoothDevicesStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizUsersStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizUsersStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizDealerStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizDealerStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizSecuritySensorSetupType">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizSecuritySensorSetupType"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_GlobalFireSiren">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="GlobalFireSiren"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AlarmVideos">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AlarmVideos"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SecondPreferredLanguage">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SecondPreferredLanguage"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizIQRemoteStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizIQRemoteStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WizSensorTestStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WizSensorTestStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_LockScreen">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LockScreen"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_ExitBeeps">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="ExitBeeps"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_TimeFormat">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="TimeFormat"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_ScenesSupport">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="ScenesSupport"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_WellnessPage">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="WellnessPage"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_CheckInCheckOut">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="CheckInCheckOut"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SecurityPage">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SecurityPage"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_StreamLiveVideoCamerastoIQRemote">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="StreamLiveVideoCamerastoIQRemote"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_GlobalChimesandVoices">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="GlobalChimesandVoices"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_GlobalIntrusionSoundsandSirens">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="GlobalIntrusionSoundsandSirens"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_GlobalAuxiliarySirens">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="GlobalAuxiliarySirens"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AllSoundsinPartition1">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AllSoundsinPartition1"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PowerGLossofSupervisoryforNonEmergencySensors">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PowerGLossofSupervisoryforNonEmergencySensors"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PowerGLossofSupervisoryforEmergencySensors">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PowerGLossofSupervisoryforEmergencySensors"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelCamera">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelCamera"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_Engrade2">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="Engrade2"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PowerGRFJam">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PowerGRFJam"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_InstallerAccessRequiresUserPermission">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="InstallerAccessRequiresUserPermission"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PowerGSmokeDetectorSiren">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PowerGSmokeDetectorSiren"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_EUEventSwingerShutdownCount">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="EUEventSwingerShutdownCount"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_LEDIndicator">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="LEDIndicator"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_PanelAmbientNoiseDetector_BETA">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="PanelAmbientNoiseDetector_BETA"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_DownloadMobileAppStep">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="DownloadMobileAppStep"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_StreamSolarData">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="StreamSolarData"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_ULCCommercialPowerRestoration">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="ULCCommercialPowerRestoration"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_AutoCommunicationTestStartTime">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AutoCommunicationTestStartTime"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_EngineersReset">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="EngineersReset"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_SirenforWirelessSupervisoryFailures">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="SirenforWirelessSupervisoryFailures"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_BurglaryAlarmConfirmation">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="BurglaryAlarmConfirmation"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_BurglaryAlarmConfirmationTimer_minutes">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="BurglaryAlarmConfirmationTimer_minutes"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 <test name="AirFx_IQRemoteResetAuthentication">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="IQRemoteResetAuthentication"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+	  		 <test name="AirFx_UKFinalExitDoorArming">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="UKFinalExitDoorArming"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 		 <test name="AirFx_AmbientNoiseDetectiondBThreshold">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="AmbientNoiseDetectiondBThreshold"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 		 <test name="AirFx_NoiseDetectorDuration">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="NoiseDetectorDuration"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 		 <test name="AirFx_NoiseDetectorPopup">
+		 	<classes>
+		 		<class name="testcases.UploadAndDownload">
+		 			<methods>
+		 				<include name="NoiseDetectorPopup"></include>
+		 			</methods>
+		 		</class>
+		 	</classes>
+		 </test>
+		 
+		 
+		 
+</suite> <!-- Suite -->
+
+
+
+
